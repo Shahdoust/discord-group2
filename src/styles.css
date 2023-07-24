@@ -1,10 +1,42 @@
 body {
+    /*justify-content: center;*/
+    display: block;
     justify-content: center;
-    
+    margin: 0%;
 }
 
 /* Kate - Navigation bar */
-
+.navbar{
+    background-color: #404EED;
+    color: white;
+}
+.navlist{
+    margin: 0%;
+    padding: 1em;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+.navimage{
+width: 20px;
+height: 15px;
+}
+.discordlink{
+    align-self: flex-start;
+}
+.navlinks{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.listlinks{
+    padding: 1em;
+}
+.opendiscordbutton{
+    border-radius: 25px;
+    padding: 0.3em;
+    background-color: #FFFFFF;
+}
 
 
 /* Kevin & Ehsan - Main part */
