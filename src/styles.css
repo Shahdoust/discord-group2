@@ -1,9 +1,61 @@
 body {
+    /*justify-content: center;*/
+    display: block;
     justify-content: center;
-    
+    margin: 0%;
 }
 
 /* Kate - Navigation bar */
+.navbar{
+    background-color: #404EED;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.navlist{
+    margin: 0%;
+    padding: 1em;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+.navimage{
+width: 130px;
+height: 25px;
+margin-top: 8%;
+}
+.imagelink:hover{
+    cursor: pointer;
+}
+.discordlink{
+    align-self: flex-start;
+}
+.navlinks{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.listlinks{
+    padding: 1em;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.opendiscordbutton{
+    border-radius: 25px;
+    padding: 1em;
+    background-color: #FFFFFF;
+    border: none;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+}
+.listlinks:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.opendiscordbutton:hover{
+    cursor: pointer;
+    color:#404EED;
+    box-shadow: 2px 7px 20px 2px rgba(0, 0, 0, 0.266);
+}
 
 
 
