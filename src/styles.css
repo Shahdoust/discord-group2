@@ -1,14 +1,131 @@
 body {
-    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    margin: 0;
+    padding: 0;
+
     
 }
 
 /* Kate - Navigation bar */
+.navbar{
+    background-color: #404EED;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.navlist{
+    margin: 0%;
+    padding: 1em;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+.navimage{
+width: 130px;
+height: 25px;
+margin-top: 8%;
+}
+.imagelink:hover{
+    cursor: pointer;
+}
+.discordlink{
+    align-self: flex-start;
+}
+.navlinks{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.listlinks{
+    padding: 1em;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.opendiscordbutton{
+    border-radius: 25px;
+    padding: 1em;
+    background-color: #FFFFFF;
+    border: none;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+}
+.listlinks:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.opendiscordbutton:hover{
+    cursor: pointer;
+    color:#404EED;
+    box-shadow: 2px 7px 20px 2px rgba(0, 0, 0, 0.266);
+}
 
 
 
-/* Kevin & Ehsan - Main part */
+/* Ehsan - Main part */
+.t_buttons {
+    display: flex;
+    border-radius: 25px;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 30%;
+    margin-left: 30%;
+}
 
+.t_buttons_left {
+    background-color: rgb(34, 16, 16);
+    justify-content: center !important;
+
+    align-self: center !important;
+    gap: 100px;
+    border-radius: 25px;
+    
+}
+
+.t_buttons_right {
+    background-color: rgb(34, 16, 16);
+    border-radius: 25px;
+    justify-content: center;
+    
+}
+
+.d_buttons{
+    display: flex;
+    align-self: center;
+    background-color: blue !important;
+    border-radius: 25px;
+   
+}
+
+/* Kevin- Main part */
+.start{
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    position: relative;
+}
+.header{
+    z-index: 2;
+}
+.text{
+    z-index: 2;
+}
+.clouds{
+    z-index: 1;
+    max-width: 100%;
+    position: absolute;
+}
+.left{
+    display: flex;
+    z-index: 2;
+    max-width: 100%;
+    position: relative;
+}
+.right{
+    max-width: 100%;
+}
 
 
 /* # Jennifer - Footer */
