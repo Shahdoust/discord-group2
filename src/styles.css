@@ -1,5 +1,9 @@
 body {
+    display: flex;
     justify-content: center;
+    margin: 0;
+    padding: 0;
+
     
 }
 
@@ -8,6 +12,18 @@ body {
 
 
 /* Ehsan - Main part */
+.buttons {
+    border-radius: 25px;
+}
+
+.t_buttons {
+    background-color: rgb(34, 16, 16);
+    gap: 16px;
+}
+
+.d_buttons{
+    background-color: blue;
+}
 
 /* Kevin- Main part */
 
