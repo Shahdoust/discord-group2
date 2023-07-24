@@ -9,6 +9,7 @@ body {
 .navbar{
     background-color: #404EED;
     color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .navlist{
     margin: 0%;
@@ -18,8 +19,12 @@ body {
     justify-content: space-around;
 }
 .navimage{
-width: 20px;
-height: 15px;
+width: 130px;
+height: 25px;
+margin-top: 8%;
+}
+.imagelink:hover{
+    cursor: pointer;
 }
 .discordlink{
     align-self: flex-start;
@@ -27,16 +32,31 @@ height: 15px;
 .navlinks{
     display: flex;
     justify-content: space-between;
-    
+    align-items: center;
 }
 .listlinks{
     padding: 1em;
+    color: #FFFFFF;
+    text-decoration: none;
 }
 .opendiscordbutton{
     border-radius: 25px;
-    padding: 0.3em;
+    padding: 1em;
     background-color: #FFFFFF;
+    border: none;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
 }
+.listlinks:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.opendiscordbutton:hover{
+    cursor: pointer;
+    color:#404EED;
+    box-shadow: 2px 7px 20px 2px rgba(0, 0, 0, 0.266);
+}
+
 
 
 /* Ehsan - Main part */
