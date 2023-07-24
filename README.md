@@ -1,5 +1,5 @@
 # discord-group2
-# People are contributed: 
+People contributed: 
     Kateryna
     Jennifer
     Ehsan 
