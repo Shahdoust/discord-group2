@@ -80,6 +80,7 @@ margin-top: 8%;
 
 .t_buttons_right {
     border-radius: 25px;
+    background-color: rgb(71, 68, 73) !important;
     /* justify-content: center; */
     
 }
