@@ -87,7 +87,7 @@ margin-top: 8%;
 /* Kevin- Main part */
 .start{
     min-width: 100%;
-    background: url("./pictures/e6d57714479874c665b36c7adee76b1d.svg");
+    background: url("./src/pictures/e6d57714479874c665b36c7adee76b1d.svg");
     min-height: 70vh;
     display: flex;
     align-items: center;
@@ -103,11 +103,25 @@ margin-top: 8%;
 }
 
 .container-stell-dir-vor{
-    /* background: red; */
     max-width: 25%;
     position: absolute;
     bottom: 10%;
     right: 0;
+
+}
+
+.container-treffen-machen {
+    
+    max-width: 25%;
+    bottom: 10%;
+    left: 0;
+    margin:10px;
+    margin-top: 10px
+}
+
+.img-2-set{
+    bottom: 25%; 
+    right: 20%;
 
 }
 
@@ -207,6 +221,11 @@ div.btn-container-downlad{
     display: flex;
     justify-content: space-between;
     flex-flow: row nowrap;
+    
+}
+
+.btn-container-downlad button{
+    font-size: x-large;
 }
 
 .btn-container-downladforLinux{
@@ -214,6 +233,7 @@ div.btn-container-downlad{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 0.5em;
 }
 
 .btn-container-downladforLinux button{
